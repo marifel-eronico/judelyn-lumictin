@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> JL GRAND HOTEL</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+     
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-hotel"></i> JL GRAND HOTEL </a>
+      
+      <nav class="navbar">
+          <a href="index.html">HOME</a> 
+         <a href="about.html">ABOUT</a>
+         <a href="rooms.html">ROOMS</a>
+         <a href="services.html">SERVICES</a>
+         <a href="reviews.html">REVIEWS</a>
+         <a href="faq.html">FAQ</a>
+         <a href="signup.html">SIGN UP</a>
+         <a href="reservation.html" class="active" class="btn"> book now</a> <link rel="stylesheet" href="style.css">
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+<!-- reservation -->
+
+<section class="reservation" id="reservation">
+
+    <h1 class="heading">book now</h1>
+
+    <form action="">
+
+       <div class="container">
+
+          <div class="box">
+             <p>name <span>*</span></p>
+             <input type="text" class="input" placeholder="Your Name">
+          </div>
+
+          <div class="box">
+             <p>email <span>*</span></p>
+             <input type="text" class="input" placeholder="Your Email">
+          </div>
+
+          <div class="box">
+             <p>check in <span>*</span></p>
+             <input type="date" class="input">
+          </div>
+
+          <div class="box">
+             <p>check out <span>*</span></p>
+             <input type="date" class="input">
+          </div>
+
+          <div class="box">
+             <p>adults <span>*</span></p>
+             <select name="adults" class="input">
+                <option value="1">1 adults</option>
+                <option value="2">2 adults</option>
+                <option value="3">3 adults</option>
+                <option value="4">4 adults</option>
+                <option value="5">5 adults</option>
+                <option value="6">6 adults</option>
+             </select>
+          </div>
+
+          <div class="box">
+             <p>children <span>*</span></p>
+             <select name="child" class="input">
+                <option value="1">1 child</option>
+                <option value="2">2 child</option>
+                <option value="3">3 child</option>
+                <option value="4">4 child</option>
+                <option value="5">5 child</option>
+                <option value="6">6 child</option>
+             </select>
+          </div>
+
+          <div class="box">
+             <p>rooms <span>*</span></p>
+             <select name="rooms" class="input">
+                <option value="1">1 rooms</option>
+                <option value="2">2 rooms</option>
+                <option value="3">3 rooms</option>
+                <option value="4">4 rooms</option>
+                <option value="5">5 rooms</option>
+                <option value="6">6 rooms</option>
+             </select>
+          </div>
+
+          <div class="box">
+             <p>room type <span>*</span></p>
+             <select name="type" class="input">
+                <option value="1">single rooms</option>
+                <option value="2">standard double rooms</option>
+                <option value="3">standard twin rooms</option>
+                <option value="4">deluxe double rooms</option>
+                <option value="4">executive suites rooms</option>
+                <option value="4">presidential suite rooms</option>
+                
+             </select>
+          </div>
+ 
+       </div>
+
+       <input type="submit" value="check availability" class="btn">
+
+    </form>
+
+ </section>
+
+ <!-- end -->
+
+ 
